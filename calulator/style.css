@@ -1,0 +1,105 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Ubuntu:wght@300&display=swap");
+html, body {
+  height: 100%;
+  width: 100%;
+  font-family: 'Roboto', sans-serif; 
+  position: fixed;
+  /* Set background color for the entire page */
+}
+  /* 3D Background with gradient */
+body {
+  background-image: url(bg5.jpg);
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  justify-content: center;
+  align-items: center;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+/* 3D Container Styling */
+
+
+/* 3D Button Styling */
+.button {
+  background: white;
+  color: black;
+  padding: 15px;
+  font-size: 18px;
+  border: none;
+  margin: 5px;
+  cursor: pointer;
+  border-radius: 8px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2), -5px -5px 10px rgba(255, 255, 255, 0.7);
+  transition: all 0.2s ease-in-out;
+}
+
+/* Button hover effect */
+.button:hover {
+  box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.2), -3px -3px 6px rgba(181, 52, 52, 0.7);
+  transform: translateY(-3px);
+}
+
+.input {
+  width: 100%;
+  padding: 15px;
+  font-size: 18px;
+  margin-bottom: 10px;
+  border: none;
+  border-radius: 8px;
+  background: white;
+  box-shadow: inset 5px 5px 10px rgba(0, 0, 0, 0.2), inset -5px -5px 10px rgba(255, 255, 255, 0.7);
+}
+
+/* Center the text in the header */
+.text-center { 
+  text-align: center;
+  color: midnightblue;
+  width: fit-content;
+  justify-content: center;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 5px 50px 5px;
+  border-radius: 20px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+
+
+
+
+
+
+
+
+.row {
+  margin-bottom: 10px;
+}
+
+/* Center the text in the header */
+
+
+
+
+.button{
+  width: 66px;
+  padding: 20px;
+  margin: 0 3px;
+  border: 2px solid rgb(189, 60, 131);
+  border-radius: 9px;
+  cursor: pointer;
+}
+
+.row{
+  margin: 8px 0;
+}
+.row input{
+  width: 291px;
+  font-size: 20px;
+    margin: 0;
+    padding: 10px 0px;
+    border: 2px solid rgb(25, 24, 25);
+    border-radius: 5px;
+}

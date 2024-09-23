@@ -1,0 +1,28 @@
+text-center{
+    text-align: center;
+  }
+  
+  .bg-red{
+    background: rgb(0, 255, 238);
+  }
+  
+  .mx-auto{
+    margin: auto;
+  }
+  
+  .flex{
+    display:flex;
+    background: linear-gradient(to bottom right, midnightblue, rgb(189, 55, 55));
+    width: fit-content;
+    padding: 30px;
+    border-radius: 18px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.8);
+
+  } 
+  .flex-col{
+    flex-direction: column;
+  }
+  
+  .items-center{
+    align-items: center;
+  }
